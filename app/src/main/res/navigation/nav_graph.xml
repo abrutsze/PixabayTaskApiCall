@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/navigationLogin">
+
+    <fragment
+        android:id="@+id/navigationHome"
+        android:name="com.example.pixabay.fragment.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigationHome_to_navigationImageDetail"
+            app:destination="@id/navigationImageDetail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigationLogin"
+        android:name="com.example.pixabay.fragment.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_navigationLogin_to_navigationHome"
+            app:destination="@id/navigationHome" />
+        <action
+            android:id="@+id/action_navigationLogin_to_navigationRegistration"
+            app:destination="@id/navigationRegistration" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigationRegistration"
+        android:name="com.example.pixabay.fragment.registration.RegistrationFragment"
+        android:label="fragment_registration"
+        tools:layout="@layout/fragment_registration" >
+
+        <action
+            android:id="@+id/action_navigationRegistration_to_navigationHome"
+            app:destination="@id/navigationHome" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigationImageDetail"
+        android:name="com.example.pixabay.fragment.imagedetail.ImageDetailFragment"
+        android:label="fragment_image_detail"
+        tools:layout="@layout/fragment_image_detail" >
+    </fragment>
+
+</navigation>

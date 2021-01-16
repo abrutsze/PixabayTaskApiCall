@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Pixabay App</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_age">Age</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Incorrect username</string>
+    <string name="invalid_password">Incorrect password</string>
+    <string name="invalid_email_syntax">Not a valid email syntax</string>
+    <string name="invalid_password_syntax">Password must be characters 6 to 12</string>
+    <string name="invalid_age_syntax">Age must be between 18 to 99</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_registraion">Registration</string>
+    <string name="image_owner">Owner:</string>
+    <string name="size">Size:</string>
+    <string name="type">Type:</string>
+    <string name="tag">Tag:</string>
+    <string name="views">Views:</string>
+    <string name="likes">Likes:</string>
+    <string name="comments">Comments:</string>
+    <string name="favorites">Favorites:</string>
+    <string name="downloads">Downloads:</string>
+
+</resources>
